@@ -3,7 +3,7 @@ var webpack = require('webpack');
 
 module.exports = function(env){
   let config = {
-  mode: "development",
+  mode: "production",
   entry: {
     app: "./index.js"
   },
